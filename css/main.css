@@ -86,21 +86,21 @@ legend {
 
 @font-face {
   font-family: "Cera-round-pro";
-  src: url("/fonts/CeraRoundPro-Regular.woff2") format("woff2"), url("/fonts/CeraRoundPro-Regular.woff") format("woff");
+  src: url("../fonts/CeraRoundPro-Regular.woff2") format("woff2"), url("../fonts/CeraRoundPro-Regular.woff") format("woff");
   font-weight: 400;
   font-display: swap;
   font-style: normal;
 }
 @font-face {
   font-family: "Cera-round-pro";
-  src: url("/fonts/CeraRoundPro-Medium.woff2") format("woff2"), url("/fonts/CeraRoundPro-Medium.woff") format("woff");
+  src: url("../fonts/CeraRoundPro-Medium.woff2") format("woff2"), url("../fonts/CeraRoundPro-Medium.woff") format("woff");
   font-weight: 500;
   font-display: swap;
   font-style: normal;
 }
 @font-face {
   font-family: "Cera-round-pro";
-  src: url("/fonts/CeraRoundPro-Bold.woff2") format("woff2"), url("/fonts/CeraRoundPro-Bold.woff") format("woff");
+  src: url("../fonts/CeraRoundPro-Bold.woff2") format("woff2"), url("../fonts/CeraRoundPro-Bold.woff") format("woff");
   font-weight: 700;
   font-display: swap;
   font-style: normal;
@@ -114,7 +114,7 @@ legend {
 }
 @font-face {
   font-family: "Open Sans";
-  src: url("/fonts/OpenSans-Medium.woff2") format("woff2"), url("/fonts/OpenSans-Medium.woff") format("woff");
+  src: url("../fonts/OpenSans-Medium.woff2") format("woff2"), url("../fonts/OpenSans-Medium.woff") format("woff");
   font-weight: 500;
   font-display: swap;
   font-style: normal;
