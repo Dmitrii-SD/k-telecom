@@ -528,7 +528,7 @@ button:hover {
   transition: filter 0.3s ease-in-out;
 }
 .tariffs__inner .tariffs__boxItem .spaceSlide {
-  width: 50px;
+  width: 150px;
 }
 @media screen and (max-width: 430px) {
   .tariffs__inner .tariffs__boxItem .spaceSlide {
