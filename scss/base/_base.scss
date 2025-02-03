@@ -1,0 +1,109 @@
+@font-face {
+    font-family: "Cera-round-pro";
+    src: url("/fonts/CeraRoundPro-Regular.woff2") format('woff2'),
+    url("/fonts/CeraRoundPro-Regular.woff") format('woff');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}  
+@font-face {
+    font-family: "Cera-round-pro";
+    src: url("/fonts/CeraRoundPro-Medium.woff2") format('woff2'),
+    url("/fonts/CeraRoundPro-Medium.woff") format('woff');
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Cera-round-pro";
+    src: url("/fonts/CeraRoundPro-Bold.woff2") format('woff2'),
+    url("/fonts/CeraRoundPro-Bold.woff") format('woff');
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+} 
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Regular.woff2") format('woff2'),
+    url("../fonts/OpenSans-Regular.woff") format('woff');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url("/fonts/OpenSans-Medium.woff2") format('woff2'),
+    url("/fonts/OpenSans-Medium.woff") format('woff');
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+}  
+
+
+
+html,
+body {
+    height: 100%;
+}
+body{
+    background-color: $backgroundColor;
+    font-family: $mainFont, sans-serif;
+    color: #2D2D2D;
+    font-size: 16px;
+}
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    
+}
+main{
+    flex-grow: 1;
+}
+.container{
+    max-width: 1920px; 
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0 auto;
+    @media screen and (max-width: 1000px){
+        max-width: 1000px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    @media screen and (max-width: 430px) {
+        max-width: 430px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    @media screen and (min-width: 1920px) and (max-width: 2400px){
+        max-width: 2400px; 
+        padding-left: 150px;
+        padding-right: 150px;
+    } 
+    @media screen and (min-width: 2400px) and (max-width: 3000px) {
+        max-width: 3000px;
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+    @media screen and (min-width: 3000px) and (max-width: 3840px) {
+        max-width: 3840px;
+        padding-left: 350px;
+        padding-right: 350px;
+    }
+    @media screen and (min-width: 3840px) and (max-width: 5120px) {
+        max-width: 5120px;
+        padding-left: 550px;
+        padding-right: 550px;
+    }
+
+}
+button{
+    cursor: pointer;
+    &:hover{
+        opacity: 0.7;
+        transition: 0.2s ease-in;
+    }
+}
